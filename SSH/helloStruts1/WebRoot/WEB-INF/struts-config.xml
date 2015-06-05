@@ -8,7 +8,11 @@
   </form-beans>
 
   <global-exceptions />
-  <global-forwards />
+  <global-forwards >
+    <forward name="globalSuccess" path="/success.jsp" />
+
+  </global-forwards>
+
   <action-mappings >
     <action
       attribute="loginForm"
