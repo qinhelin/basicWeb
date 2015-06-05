@@ -16,7 +16,9 @@
       path="/login"
       scope="request"
       type="com.yourcompany.struts.action.LoginAction"
-      cancellable="true" />
+      cancellable="true">
+      <forward name="success" path="/success.jsp" />
+    </action>
 
   </action-mappings>
 
