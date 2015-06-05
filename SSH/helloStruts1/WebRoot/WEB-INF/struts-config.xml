@@ -9,7 +9,17 @@
 
   <global-exceptions />
   <global-forwards />
-  <action-mappings />
+  <action-mappings >
+    <action
+      attribute="loginForm"
+      name="loginForm"
+      path="/login"
+      scope="request"
+      type="com.yourcompany.struts.action.LoginAction"
+      cancellable="true" />
+
+  </action-mappings>
+
   <message-resources parameter="com.yourcompany.struts.ApplicationResources" />
 </struts-config>
 
